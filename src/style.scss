@@ -17,13 +17,14 @@ body {
   display: grid;
   place-items: center;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
 }
 
 .container {
   width: 80vw;
   @media (max-width: 800px) {
     gap: 8px;
+    height: 100vh;
   }
 
   max-width: 900px;
@@ -76,4 +77,9 @@ body {
 
 #translate {
   margin-top: 20px;
+  @media (max-width: 800px) {
+    background-color: #fc00ff;
+    color: white;
+    margin-top: 18px;
+  }
 }
